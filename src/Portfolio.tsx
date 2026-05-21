@@ -188,7 +188,7 @@ export default function Portfolio() {
               <div className="stat-label">Internships Completed</div>
             </div>
             <div className="stat-card">
-              <div className="stat-num">7+</div>
+              <div className="stat-num">6+</div>
               <div className="stat-label">Production Projects</div>
             </div>
             <div className="stat-card">
@@ -208,25 +208,33 @@ export default function Portfolio() {
         <div className="skills-grid reveal">
           <div className="skill-group">
             <div className="skill-group-icon">🐍</div>
-            <div className="skill-group-title">Languages</div>
+            <div className="skill-group-title">Programming Languages</div>
             <div className="skill-tags">
               <span className="tag">Python</span>
               <span className="tag">JavaScript</span>
-              <span className="tag">HTML/CSS</span>
-              <span className="tag">SQL</span>
             </div>
           </div>
 
           <div className="skill-group">
             <div className="skill-group-icon">⚛️</div>
-            <div className="skill-group-title">Frameworks &amp; Libraries</div>
+            <div className="skill-group-title">Frontend Development</div>
             <div className="skill-tags">
-              <span className="tag purple">React</span>
+              <span className="tag purple">React.js</span>
               <span className="tag purple">Next.js</span>
-              <span className="tag purple">NumPy</span>
-              <span className="tag purple">Pandas</span>
-              <span className="tag purple">Matplotlib</span>
-              <span className="tag purple">Scikit-learn</span>
+              <span className="tag purple">Responsive Web Design</span>
+            </div>
+          </div>
+
+          <div className="skill-group">
+            <div className="skill-group-icon">🤖</div>
+            <div className="skill-group-title">Data Science &amp; Machine Learning</div>
+            <div className="skill-tags">
+              <span className="tag">Pandas</span>
+              <span className="tag">NumPy</span>
+              <span className="tag">Random Forest</span>
+              <span className="tag">Logistic Regression</span>
+              <span className="tag">K-Means</span>
+              <span className="tag">Feature Engineering</span>
             </div>
           </div>
 
@@ -234,44 +242,46 @@ export default function Portfolio() {
             <div className="skill-group-icon">🔗</div>
             <div className="skill-group-title">Backend &amp; APIs</div>
             <div className="skill-tags">
-              <span className="tag green">REST APIs</span>
-              <span className="tag green">Firebase</span>
-              <span className="tag green">API Integration</span>
-              <span className="tag green">Twitter API v2</span>
-            </div>
-          </div>
-
-          <div className="skill-group">
-            <div className="skill-group-icon">🤖</div>
-            <div className="skill-group-title">Machine Learning</div>
-            <div className="skill-tags">
-              <span className="tag">Linear Regression</span>
-              <span className="tag">Supervised ML</span>
-              <span className="tag">Unsupervised ML</span>
-              <span className="tag">Feature Engineering</span>
-              <span className="tag">Data Preprocessing</span>
+              <span className="tag green">REST API Design</span>
+              <span className="tag green">Firebase Auth</span>
+              <span className="tag green">Firebase Firestore</span>
+              <span className="tag green">Realtime Database</span>
+              <span className="tag green">NoSQL</span>
             </div>
           </div>
 
           <div className="skill-group">
             <div className="skill-group-icon">🌐</div>
-            <div className="skill-group-title">Web3 &amp; Blockchain</div>
+            <div className="skill-group-title">Web3 Technologies</div>
             <div className="skill-tags">
               <span className="tag purple">ethers.js</span>
               <span className="tag purple">Web3Modal</span>
-              <span className="tag purple">Wallet Connect</span>
-              <span className="tag purple">Token Airdrops</span>
+              <span className="tag purple">Wallet Authentication</span>
+              <span className="tag purple">Token-Based Systems</span>
             </div>
           </div>
 
           <div className="skill-group">
             <div className="skill-group-icon">🛠️</div>
-            <div className="skill-group-title">Tools &amp; Deployment</div>
+            <div className="skill-group-title">Tools, CI/CD &amp; Deployment</div>
             <div className="skill-tags">
+              <span className="tag green">Git</span>
               <span className="tag green">GitHub</span>
-              <span className="tag green">VS Code</span>
+              <span className="tag green">GitHub Actions</span>
               <span className="tag green">Vercel</span>
               <span className="tag green">Google Cloud</span>
+              <span className="tag green">VS Code</span>
+            </div>
+          </div>
+
+          <div className="skill-group">
+            <div className="skill-group-icon">📐</div>
+            <div className="skill-group-title">Core CS Concepts</div>
+            <div className="skill-tags">
+              <span className="tag">DSA</span>
+              <span className="tag">OOP</span>
+              <span className="tag">DBMS</span>
+              <span className="tag">Software Engineering</span>
             </div>
           </div>
         </div>
@@ -305,6 +315,7 @@ export default function Portfolio() {
                 <span className="tag">TypeScript</span>
                 <span className="tag">Vercel</span>
               </div>
+              <a href="https://miscom-xi.vercel.app/" target="_blank" rel="noreferrer" className="project-link">Live Demo ↗</a>
               <a href="https://github.com/SaitrishankAUCSE/MisCom" target="_blank" rel="noreferrer" className="project-link">GitHub ↗</a>
             </div>
           </div>
@@ -356,28 +367,7 @@ export default function Portfolio() {
             </div>
           </div>
 
-          {/* 4 — Corevix */}
-          <div className="project-card">
-            <div className="project-header">
-              <div className="project-title">Corevix — Fitness Tracking App</div>
-              <span className="project-badge badge-purple">APP</span>
-            </div>
-            <p className="project-desc">A real-time fitness tracking application designed to monitor workouts, track progress, and deliver health analytics.</p>
-            <div className="project-bullets">
-              <div className="project-bullet">Real-time workout tracking with exercise logging, sets, reps, and duration management</div>
-              <div className="project-bullet">Progress visualization with charts and analytics for fitness goal tracking</div>
-              <div className="project-bullet">Clean UI/UX with responsive mobile-first design for on-the-go fitness monitoring</div>
-            </div>
-            <div className="project-footer">
-              <div className="project-stack">
-                <span className="tag purple">React</span>
-                <span className="tag">JavaScript</span>
-                <span className="tag green">Firebase</span>
-                <span className="tag">CSS</span>
-              </div>
-              <a href="https://github.com/SaitrishankAUCSE/Corevix---A-real-time-fitness-tracking-app" target="_blank" rel="noreferrer" className="project-link">GitHub ↗</a>
-            </div>
-          </div>
+
 
           {/* 5 — Airdrop Game */}
           <div className="project-card">
