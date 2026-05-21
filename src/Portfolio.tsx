@@ -340,6 +340,7 @@ export default function Portfolio() {
                 <span className="tag">ethers.js</span>
                 <span className="tag">Twitter API</span>
               </div>
+              <a href="http://airdrop.amerox.io/" target="_blank" rel="noreferrer" className="project-link">Live Demo ↗</a>
               <a href="https://github.com/SaitrishankAUCSE/amerox-airdrop" target="_blank" rel="noreferrer" className="project-link">GitHub ↗</a>
             </div>
           </div>
@@ -363,6 +364,7 @@ export default function Portfolio() {
                 <span className="tag purple">Pandas</span>
                 <span className="tag purple">NumPy</span>
               </div>
+              <a href="https://houseprice.vercel.app/" target="_blank" rel="noreferrer" className="project-link">Live Demo ↗</a>
               <a href="https://github.com/SaitrishankAUCSE/House-Price-Prediction-Project" target="_blank" rel="noreferrer" className="project-link">GitHub ↗</a>
             </div>
           </div>
@@ -433,6 +435,7 @@ export default function Portfolio() {
                 <span className="tag green">Stripe</span>
                 <span className="tag">Mux</span>
               </div>
+              <a href="https://ameroxfoundation.com/" target="_blank" rel="noreferrer" className="project-link">Live Demo ↗</a>
               <a href="https://github.com/SaitrishankAUCSE/Amero-X-LMS" target="_blank" rel="noreferrer" className="project-link">GitHub ↗</a>
             </div>
           </div>
