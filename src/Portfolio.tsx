@@ -188,7 +188,7 @@ export default function Portfolio() {
               <div className="stat-label">Internships Completed</div>
             </div>
             <div className="stat-card">
-              <div className="stat-num">2+</div>
+              <div className="stat-num">7+</div>
               <div className="stat-label">Production Projects</div>
             </div>
             <div className="stat-card">
@@ -284,10 +284,60 @@ export default function Portfolio() {
         <p className="section-label reveal">03 — Projects</p>
         <h2 className="section-title reveal">Selected Artifacts</h2>
         <div className="projects-grid reveal">
+
+          {/* 1 — MisCom */}
+          <div className="project-card">
+            <div className="project-header">
+              <div className="project-title">MisCom — Social Messaging Platform</div>
+              <span className="project-badge">LIVE</span>
+            </div>
+            <p className="project-desc">A production-grade social messaging ecosystem with real-time chat, user discovery, and a premium dark-mode experience.</p>
+            <div className="project-bullets">
+              <div className="project-bullet">Firebase-powered authentication with Google OAuth, OTP verification, and persistent session management</div>
+              <div className="project-bullet">Real-time Firestore synchronization for cross-device messaging and user discovery</div>
+              <div className="project-bullet">Dual-layer identity system with unique usernames, display names, and real-time availability validation</div>
+            </div>
+            <div className="project-footer">
+              <div className="project-stack">
+                <span className="tag purple">React</span>
+                <span className="tag purple">Vite</span>
+                <span className="tag green">Firebase</span>
+                <span className="tag">TypeScript</span>
+                <span className="tag">Vercel</span>
+              </div>
+              <a href="https://github.com/SaitrishankAUCSE/MisCom" target="_blank" rel="noreferrer" className="project-link">GitHub ↗</a>
+            </div>
+          </div>
+
+          {/* 2 — Amerox Airdrop */}
+          <div className="project-card">
+            <div className="project-header">
+              <div className="project-title">Amerox Airdrop Platform</div>
+              <span className="project-badge badge-purple">WEB3</span>
+            </div>
+            <p className="project-desc">Gamified Web3 platform for token airdrops and interactive missions built at ANACT INFOTECH — production-deployed.</p>
+            <div className="project-bullets">
+              <div className="project-bullet">Built responsive frontend with Next.js &amp; React for dynamic user interactions and mission workflows</div>
+              <div className="project-bullet">Engineered scalable backend using Firebase Authentication &amp; API-based data handling</div>
+              <div className="project-bullet">Integrated Twitter API v2 and secure wallet connectivity via ethers.js &amp; Web3Modal</div>
+            </div>
+            <div className="project-footer">
+              <div className="project-stack">
+                <span className="tag purple">Next.js</span>
+                <span className="tag purple">React</span>
+                <span className="tag green">Firebase</span>
+                <span className="tag">ethers.js</span>
+                <span className="tag">Twitter API</span>
+              </div>
+              <a href="https://github.com/SaitrishankAUCSE/amerox-airdrop" target="_blank" rel="noreferrer" className="project-link">GitHub ↗</a>
+            </div>
+          </div>
+
+          {/* 3 — House Price Prediction */}
           <div className="project-card">
             <div className="project-header">
               <div className="project-title">House Price Prediction System</div>
-              <span className="project-badge">LIVE</span>
+              <span className="project-badge">ML</span>
             </div>
             <p className="project-desc">End-to-end machine learning web app for real-time house price prediction with dynamic user input and instant results.</p>
             <div className="project-bullets">
@@ -301,34 +351,102 @@ export default function Portfolio() {
                 <span className="tag">Scikit-learn</span>
                 <span className="tag purple">Pandas</span>
                 <span className="tag purple">NumPy</span>
-                <span className="tag green">Vercel</span>
               </div>
-              <a href="https://houseprice.vercel.app" target="_blank" rel="noreferrer" className="project-link">Live Demo ↗</a>
+              <a href="https://github.com/SaitrishankAUCSE/House-Price-Prediction-Project" target="_blank" rel="noreferrer" className="project-link">GitHub ↗</a>
             </div>
           </div>
 
+          {/* 4 — Corevix */}
           <div className="project-card">
             <div className="project-header">
-              <div className="project-title">Crypto Airdrop Platform</div>
+              <div className="project-title">Corevix — Fitness Tracking App</div>
+              <span className="project-badge badge-purple">APP</span>
+            </div>
+            <p className="project-desc">A real-time fitness tracking application designed to monitor workouts, track progress, and deliver health analytics.</p>
+            <div className="project-bullets">
+              <div className="project-bullet">Real-time workout tracking with exercise logging, sets, reps, and duration management</div>
+              <div className="project-bullet">Progress visualization with charts and analytics for fitness goal tracking</div>
+              <div className="project-bullet">Clean UI/UX with responsive mobile-first design for on-the-go fitness monitoring</div>
+            </div>
+            <div className="project-footer">
+              <div className="project-stack">
+                <span className="tag purple">React</span>
+                <span className="tag">JavaScript</span>
+                <span className="tag green">Firebase</span>
+                <span className="tag">CSS</span>
+              </div>
+              <a href="https://github.com/SaitrishankAUCSE/Corevix---A-real-time-fitness-tracking-app" target="_blank" rel="noreferrer" className="project-link">GitHub ↗</a>
+            </div>
+          </div>
+
+          {/* 5 — Airdrop Game */}
+          <div className="project-card">
+            <div className="project-header">
+              <div className="project-title">Airdrop Game Engine</div>
               <span className="project-badge badge-purple">WEB3</span>
             </div>
-            <p className="project-desc">Gamified Web3 platform for token airdrops and interactive missions built at ANACT INFOTECH.</p>
+            <p className="project-desc">Gamified blockchain interaction engine where users complete on-chain and social missions to earn token rewards.</p>
             <div className="project-bullets">
-              <div className="project-bullet">Built responsive frontend with Next.js &amp; React for dynamic user interactions</div>
-              <div className="project-bullet">Engineered scalable backend using Firebase Authentication &amp; API-based data handling</div>
-              <div className="project-bullet">Integrated Twitter API v2 and secure wallet connectivity via ethers.js &amp; Web3Modal</div>
+              <div className="project-bullet">Quest-based mission architecture with multi-step task verification and reward distribution</div>
+              <div className="project-bullet">Wallet connectivity and on-chain transaction validation for secure reward claims</div>
+              <div className="project-bullet">Leaderboard and engagement tracking for competitive user retention</div>
+            </div>
+            <div className="project-footer">
+              <div className="project-stack">
+                <span className="tag">JavaScript</span>
+                <span className="tag purple">React</span>
+                <span className="tag">Web3</span>
+                <span className="tag green">Firebase</span>
+              </div>
+              <a href="https://github.com/SaitrishankAUCSE/airdrop-game" target="_blank" rel="noreferrer" className="project-link">GitHub ↗</a>
+            </div>
+          </div>
+
+          {/* 6 — Twitter Game */}
+          <div className="project-card">
+            <div className="project-header">
+              <div className="project-title">Twitter Social Engagement Game</div>
+              <span className="project-badge">API</span>
+            </div>
+            <p className="project-desc">Twitter-integrated social engagement platform that gamifies user interactions through verified social missions.</p>
+            <div className="project-bullets">
+              <div className="project-bullet">Twitter API v2 integration for real-time follow, retweet, and like verification workflows</div>
+              <div className="project-bullet">Automated mission validation engine with server-side proof-of-completion checks</div>
+            </div>
+            <div className="project-footer">
+              <div className="project-stack">
+                <span className="tag">JavaScript</span>
+                <span className="tag">Twitter API v2</span>
+                <span className="tag green">Node.js</span>
+              </div>
+              <a href="https://github.com/SaitrishankAUCSE/twitter-game" target="_blank" rel="noreferrer" className="project-link">GitHub ↗</a>
+            </div>
+          </div>
+
+          {/* 7 — Amero-X LMS */}
+          <div className="project-card">
+            <div className="project-header">
+              <div className="project-title">Amero-X LMS Platform</div>
+              <span className="project-badge">EDU</span>
+            </div>
+            <p className="project-desc">Full-featured Learning Management System with course creation, video streaming, progress tracking, and Stripe payments.</p>
+            <div className="project-bullets">
+              <div className="project-bullet">Next.js 13 app-router architecture with Prisma ORM and MySQL for scalable data management</div>
+              <div className="project-bullet">Mux video streaming integration for high-quality course content delivery</div>
+              <div className="project-bullet">Stripe payment processing for course purchases with webhook-based fulfillment</div>
             </div>
             <div className="project-footer">
               <div className="project-stack">
                 <span className="tag purple">Next.js</span>
-                <span className="tag purple">React</span>
-                <span className="tag green">Firebase</span>
-                <span className="tag">ethers.js</span>
-                <span className="tag">Twitter API</span>
+                <span className="tag">TypeScript</span>
+                <span className="tag">Prisma</span>
+                <span className="tag green">Stripe</span>
+                <span className="tag">Mux</span>
               </div>
-              <a href="https://airdrop.amerox.io" target="_blank" rel="noreferrer" className="project-link">Platform ↗</a>
+              <a href="https://github.com/SaitrishankAUCSE/Amero-X-LMS" target="_blank" rel="noreferrer" className="project-link">GitHub ↗</a>
             </div>
           </div>
+
         </div>
       </section>
 
