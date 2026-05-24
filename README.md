@@ -1,73 +1,50 @@
-# React + TypeScript + Vite
+# Venkata Sai Trishank Kamma — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Preview](https://saitrishank-portfolio.vercel.app/favicon.svg) <!-- Replace with an actual screenshot if you have one! -->
 
-Currently, two official plugins are available:
+Welcome to the repository for my personal developer portfolio! This premium, interactive web application is designed to showcase my experience, technical skills, and selected projects across Full-Stack Development, Machine Learning, and Web3 technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Site:** [saitrishank-portfolio.vercel.app](https://saitrishank-portfolio.vercel.app/)
 
-## React Compiler
+## ✨ Key Features
+- **Premium Aesthetics:** Custom "Obsidian Gold" theme featuring glassmorphism, dynamic gradients, and a sleek dark mode.
+- **Interactive UI:** Responsive, canvas-based "BeamsBackground" that reacts dynamically to mouse movements, creating a living aura around the cursor.
+- **Dynamic Content:** Showcases my latest production projects (MisCom, Amerox Airdrop, Amero-X LMS, etc.) with integrated live demos and GitHub links.
+- **Adaptive Layout:** Fully responsive CSS grid layout that provides a seamless experience across mobile, tablet, and desktop devices.
+- **Performance Optimized:** Fast load times and smooth transitions powered by modern build tools.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Frontend Framework:** React (v19)
+- **Build Tool:** Vite
+- **Language:** TypeScript
+- **Styling:** Vanilla CSS, Tailwind CSS, clsx, tailwind-merge
+- **Animations:** Framer Motion, HTML5 Canvas
+- **Deployment:** Vercel
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started Locally
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+If you'd like to run this project on your local machine, follow these steps:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/SaitrishankAUCSE/trishank-portfolio.git
+   cd trishank-portfolio
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+4. **Open in browser:**
+   Navigate to `http://localhost:5173` to view the site.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📬 Contact
+- **Email:** saitrishankb9@gmail.com
+- **LinkedIn:** [linkedin.com/in/saitrishank](https://linkedin.com/in/saitrishank) *(Update with your actual link)*
+- **GitHub:** [@SaitrishankAUCSE](https://github.com/SaitrishankAUCSE)
